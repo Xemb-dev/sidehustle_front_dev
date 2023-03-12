@@ -1,0 +1,36 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+main{
+    margin:auto;
+    width:fit-content;
+    padding: 120px 200px;
+    background-color: aquamarine;
+    border: 1px solid inherit;
+    border-radius: 10px;
+}
+form{
+    width:max-content;
+    padding: 10px;
+    margin: 15% auto;
+}
+fieldset{
+    border-radius: 5px;
+    padding:10px;
+}
+input{
+    outline: none;
+    border: 0.4px solid grey;
+    border-radius: 5px;;
+    margin: 7px 0px;
+    height: 25px;
+}
+.submit{
+    padding: 5px 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    cursor:pointer;
+    background-color: rgb(93, 219, 93);
+    outline:none;
+}

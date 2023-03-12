@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Favour Okia </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <form action="" onsubmit="success()">
+                <fieldset>
+                    <legend>Favour's Form</legend>
+                    <input type="text" name="name" placeholder="full name" required><br>
+                    <input type="email" name="email" placeholder="example@gmail.com" required><br>
+                    <input type="number" name="phone" placeholder="+234----" required><br>
+                    <fieldset>
+                        <legend>Gender</legend>
+                            <input type="radio" name="gender" value="Male"> Male 
+                            <input type="radio" name="gender" value="Female"> Female <br>
+                    </fieldset>
+                    <input type="password" name="password" placeholder="Password" required><br>
+                    <center> 
+                        <button type="submit" value="submit" class="submit"> Submit</button>
+                    </center>
+                </fieldset>
+            </form>
+        </main>
+        
+        <script>
+            
+            function success(){
+                alert("Form Submitted Sucessfully");
+            }
+        </script>
+    </body>
+</html>
